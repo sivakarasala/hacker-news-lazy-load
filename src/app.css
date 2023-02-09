@@ -1,0 +1,25 @@
+.app {
+  margin-top: 20px;
+  display: grid;
+  grid-gap: 10px;
+}
+
+.result {
+  background-color: white;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 5px;
+  width: 100%;
+  padding: 15px;
+}
+
+.result > span {
+  display: block;
+  font-weight: 550;
+  margin-bottom: 10px;
+}
+
+.loader {
+  height: 40px;
+  text-align: center;
+}
